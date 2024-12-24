@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+body {}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo_img img {
+    width: 45%;
+}
+
+.free_button {
+    font-family: 'Open sans';
+    font-size: 0.7rem;
+    padding-block: 5px;
+    padding-inline: 15px;
+    border-radius: 30px;
+    border: 2px solid hsl(321, 100%, 78%);
+    background-color: white;
+    color: hsl(321, 100%, 78%);
+    box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.3);
+    /* Button shadow */
+    text-shadow: 0.5px 1px 2px rgba(0, 0, 0, 0.2);
+    /* Text shadow */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.free_button:hover {
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(321, 100%, 94%);
+}
+
+.build {
+    margin: auto;
+    padding-top: 5rem;
+    font-family: 'Open sans';
+    font-weight: 800;
+    text-align: center;
+    max-width: 20rem;
+}
+
+p {
+    font-size: 0.875rem;
+    font-family: 'Open sans';
+    text-align: center;
+    font-weight: 600;
+    max-width: 20rem;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.free_button_two {
+    font-family: 'Open sans';
+    font-weight: 600;
+    display: flex;
+    margin-inline: auto;
+    padding-block: 0.7rem;
+    padding-inline: 2.5rem;
+    border-radius: 30px;
+    border: 2px hsl(322, 100%, 66%)solid;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 3rem;
+
+}
+
+.free_button_two:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(322, 100%, 66%);
+}
+
+
+.ysfxjo_1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ysfxjo_1 img {
+    padding-top: 5rem;
+    width: 80%;
+}
+
+.ysfxjo_2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ysfxjo_2 img {
+    padding-top: 4rem;
+    padding-right: 8rem;
+    width: 8%;
+}
+
+.middle_section {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Open sans';
+    font-weight: 700;
+    text-align: center;
+}
+
+.Communities {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Open sans';
+    font-weight: 700;
+    text-align: center;
+}
+
+.Communities_p {
+    padding: 0;
+    color: hsl(197, 3%, 57%);
+}
+
+.middle_section section:nth-of-type(2) .Communities_p {
+    max-width: 50px;
+}
+
+.first_backgorund {
+    background-color: hsl(207, 100%, 98%);
+    margin-top: -10px;
+}
+
+.ysfxjo_3 img {
+    padding-top: 4rem;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.first_backgorund h1.Communities {
+    margin-top: 3rem;
+    margin-bottom: -20px;
+    padding: 0;
+    font-size: 1.275rem;
+    font-weight: 800;
+}
+
+.first_backgorund p {
+    padding-bottom: 30px;
+}
+
+.ysfxjo_4 img {
+    padding-top: 5rem;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.second_background h1.Communities {
+    margin-top: 3rem;
+    margin-bottom: -20px;
+    padding: 0;
+    font-size: 1.275rem;
+    font-weight: 800;
+
+}
+
+.second_background p {
+    max-width: 330px;
+    padding-bottom: 5rem;
+}
+
+.third_background {
+    background-color: hsl(207, 100%, 98%);
+    margin-top: -10px;
+}
+
+.third_background p {
+    padding-bottom: 50px;
+}
+
+
+.ysfxjo_5 img {
+    padding-top: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.third_background h1.Communities {
+    margin-top: 3rem;
+    margin-bottom: -20px;
+    padding: 0;
+    font-size: 1.275rem;
+    font-weight: 800;
+}
+
+.third_background p {
+    max-width: 330px;
+}
+
+
+
+.fourth_background .build {
+    margin: auto;
+    padding-top: 5rem;
+    font-family: 'Open sans';
+    font-weight: 800;
+    text-align: center;
+    max-width: 17rem;
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+.fourth_background .free_button_two {
+    margin-top: -10px;
+    margin-bottom: 5rem;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin-top: -10px;
+}
+
+.fifth_background {
+    padding-left: 1.275rem;
+
+
+}
+
+.footer_title {
+    font-family: 'Open sans';
+    padding-top: 2rem;
+}
+
+
+.fifth_background .footer_p {
+    padding-block: 1.275rem;
+    margin: 0;
+    text-align: start;
+    line-height: 1.7;
+    opacity: 90%;
+}
+
+.only_input input {
+    border: none;
+    padding-inline: 4.5rem;
+    padding-block: 0.5rem;
+    border-radius: 5px;
+    ;
+}
+
+.fifth_background .sub_button {
+    font-family: 'Open sans';
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    justify-self: end;
+    padding-block: 0.7rem;
+    padding-inline: 2.5rem;
+    border-radius: 10px;
+    border: 2px hsl(322, 100%, 66%)solid;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 2.75rem;
+    margin-top: 1rem;
+}
+
+.footer_logo img {
+    margin-top: 5rem;
+    width: 60%;
+}
+
+.white-logo {
+    filter: invert(1) grayscale(1) brightness(100%) contrast(100%);
+}
+
+.contact span {
+    padding-left: 10px;
+    font-family: 'Open sans';
+    font-size: 0.875rem;
+
+}
+
+.contact {
+    opacity: 90%;
+}
+
+.contact img {
+    width: 4%;
+}
+
+
+@media(min-width:1440px) {
+
+    .header {
+        padding: 3rem;
+    }
+
+    .logo_img img {
+        width: 75%;
+    }
+
+    .free_button {
+        font-family: 'Open sans';
+        font-size: 0.9rem;
+        padding-block: 1rem;
+        padding-inline: 2rem;
+        border-radius: 30px;
+        border: 2px solid hsl(321, 100%, 78%);
+        background-color: white;
+        color: hsl(321, 100%, 78%);
+        box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.3);
+        /* Button shadow */
+        text-shadow: 0.5px 1px 2px rgba(0, 0, 0, 0.2);
+        /* Text shadow */
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .build {
+        margin: auto;
+        padding-top: 5rem;
+        font-family: 'Open sans';
+        font-weight: 800;
+        text-align: center;
+        max-width: 70rem;
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+        font-family: 'Open sans';
+        text-align: center;
+        font-weight: 600;
+        max-width: 40rem;
+        margin: auto;
+        padding-top: 2rem;
+        font-size: 1.275rem;
+    }
+
+    .free_button_two {
+        font-family: 'Open sans';
+        font-weight: 600;
+        display: flex;
+        margin-inline: auto;
+        padding-block: 1.275rem;
+        padding-inline: 5.5rem;
+        border-radius: 40px;
+        border: 2px hsl(322, 100%, 66%)solid;
+        background-color: hsl(322, 100%, 66%);
+        color: white;
+        box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+
+    }
+
+    .ysfxjo_1 img {
+        padding-top: 5rem;
+        width: 70%;
+    }
+
+    .middle_section {
+        display: flex;
+        justify-content: space-around;
+        /* Space between the sections */
+        align-items: center;
+        padding-bottom: 5rem;
+    }
+
+    .community_stats {
+        display: flex;
+        flex-direction: column;
+        /* Ensure items stack vertically within each section */
+        align-items: center;
+        /* Center align content */
+        text-align: center;
+        /* Center align text */
+
+    }
+
+    .ysfxjo_2 img {
+        padding-top: 5rem;
+        width: 70%;
+    }
+
+    .middle_section section:nth-of-type(2) .Communities_p {
+        max-width: 1000px;
+    }
+
+    .first_backgorund {
+        display: flex;
+        justify-content: space-around;
+        /* Space between the sections */
+        align-items: center;
+        padding-bottom: 5rem;
+        flex-direction: row-reverse;
+    }
+
+    .grow_togather {
+        display: flex;
+        flex-direction: column;
+        /* Ensure items stack vertically within each section */
+        align-items: center;
+        /* Center align content */
+        text-align: center;
+        /* Center align text */
+    }
+
+    .ysfxjo_3 img {
+        margin-right: 8rem;
+        margin-top: -2rem;
+        width: 80%;
+    }
+
+    .first_backgorund p,
+    h1.Communities {
+        text-align: start;
+        margin-inline: 8rem;
+        max-width: 1500px;
+    }
+
+    .first_backgorund h1.Communities {
+        font-size: 2.5rem;
+    }
+
+    .flowing_conversation {
+        display: flex;
+        /* Enables horizontal layout */
+        justify-content: space-between;
+        /* Space between the two divs */
+        align-items: center;
+        /* Vertically align items */
+        gap: 2rem;
+        /* Adds spacing between the two divs */
+        padding: 2rem;
+        /* Optional: Padding around the container */
+    }
+
+    .ysfxjo_4 img {
+        max-width: 100%;
+        /* Ensures the image is responsive */
+        height: auto;
+        /* Maintains the aspect ratio */
+    }
+
+    .second_background {
+        margin-top: 5rem;
+        margin-left: -5rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .second_background h1 {
+        margin-left: -0.2rem;
+    }
+
+    .Communities {
+
+        font-size: 3rem !important;
+        /* Increase the font size */
+        font-weight: bold;
+        /* Bold styling */
+        white-space: nowrap;
+        /* Prevent wrapping of the h1 text */
+        margin: 0;
+        /* Remove default margin */
+        text-align: left;
+        /* Ensure text is aligned to the left */
+    }
+
+    .community_stats .Communities {
+        font-size: 5rem !important;
+    }
+
+    .second_background p {
+        align-self: start;
+        text-align: start;
+        font-size: 1.2rem;
+        /* Adjust paragraph font size */
+        line-height: 1.6;
+        /* Improve readability with line spacing */
+        margin: 0;
+        /* Remove default margin */
+        max-width: 100ch;
+        /* Restrict width for controlled line breaks */
+    }
+
+    .ysfxjo_4 {
+        width: 90%;
+    }
+
+    .ysfxjo_Class img {
+        width: 100%;
+    }
+
+    .third_background {
+        display: flex;
+        /* Enables horizontal layout */
+        justify-content: space-between;
+        /* Space between the two divs */
+        align-items: center;
+        /* Vertically align items */
+        gap: 2rem;
+        /* Adds spacing between the two divs */
+        flex-direction: row-reverse;
+    }
+
+    .Your_users {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .third_background .Your_users h1 {
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+        margin-left: 6rem;
+        font-size: 2.5rem !important;
+    }
+
+    .third_background .Your_users p {
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+        margin-left: 6rem;
+        max-width: 74rem;
+    }
+
+    .ysfxjo_5 img {
+        width: 70%;
+        margin-bottom: 6rem;
+    }
+
+    .fourth_background .build {
+        margin: auto;
+        padding-top: 5rem;
+        font-family: 'Open sans';
+        font-weight: 800;
+        text-align: center;
+        max-width: 70rem;
+        font-size: 3rem;
+    }
+
+    .fifth_background {
+        display: flex;
+        justify-content: space-around;
+        /* Space between the sections */
+        align-items: center;
+        padding-bottom: 5rem;
+        flex-direction: row-reverse;
+    }
+
+    .fifth_background h2 {
+        font-size: 1.875rem;
+    }
+
+    .top_part_footer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .bottom_part_footer {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer_logo img {
+        width: 90%;
+    }
+
+    .footer_p {
+        max-width: 31.5rem;
+    }
+
+    .contact span {
+        font-size: 1.2rem;
+    }
+
+    .contact img {
+        width: 7%;
+    }
+
+
+}
